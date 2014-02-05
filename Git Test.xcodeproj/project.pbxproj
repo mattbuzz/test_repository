@@ -21,6 +21,7 @@
 		C92743B418A1EEE500D0E775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C927439618A1EEE500D0E775 /* UIKit.framework */; };
 		C92743BC18A1EEE500D0E775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C92743BA18A1EEE500D0E775 /* InfoPlist.strings */; };
 		C92743BE18A1EEE500D0E775 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92743BD18A1EEE500D0E775 /* Git_TestTests.m */; };
+		C92743C918A1F33D00D0E775 /* MBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C92743C818A1F33D00D0E775 /* MBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C92743B918A1EEE500D0E775 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		C92743BB18A1EEE500D0E775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C92743BD18A1EEE500D0E775 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		C92743C718A1F33D00D0E775 /* MBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTest.h; sourceTree = "<group>"; };
+		C92743C818A1F33D00D0E775 /* MBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C927438618A1EEE500D0E775 = {
 			isa = PBXGroup;
 			children = (
+				C92743C718A1F33D00D0E775 /* MBTest.h */,
+				C92743C818A1F33D00D0E775 /* MBTest.m */,
 				C927439818A1EEE500D0E775 /* Git Test */,
 				C92743B718A1EEE500D0E775 /* Git TestTests */,
 				C927439118A1EEE500D0E775 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				C927439F18A1EEE500D0E775 /* main.m in Sources */,
 				C92743A918A1EEE500D0E775 /* MBViewController.m in Sources */,
+				C92743C918A1F33D00D0E775 /* MBTest.m in Sources */,
 				C92743A318A1EEE500D0E775 /* MBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
